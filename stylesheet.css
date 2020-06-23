@@ -124,8 +124,10 @@ header {
   text-transform: uppercase;
   text-shadow: 0 0 10px yellow;
   box-shadow: 0 0 20px rgba(0,0,0);
-  margin-right: 20px;
+  /*margin-right: 20px;*/
+  margin:0 20px;
 }
+
 
 .explore {
   background-color: #915918;
@@ -134,7 +136,8 @@ header {
   text-transform: uppercase;
   text-shadow: 0 0 10px white;
   box-shadow: 0 0 20px rgba(0,0,0);
-  margin-right: 20px;
+  /*margin-right: 20px;*/
+  /*margin:0 20px;*/
 }
 
 .destination {
@@ -144,6 +147,7 @@ header {
   text-transform: uppercase;
   text-shadow: 0 0 10px white;
   box-shadow: 0 0 20px rgba(0,0,0);
+  margin:0 20px;
 }
 
 .btn {
@@ -280,4 +284,13 @@ footer {
 .footer-vers b {
   float: right;
   padding: 20px;
+}
+
+input,textarea{
+  width:400px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  padding:20px;
+  margin-top:10px;
+  margin-bottom:30px;
 }
