@@ -16,17 +16,33 @@
     font-size: 20px;
   }
 
+  .signup{
+    margin-left: 10px;
+    margin-bottom:10px;
+  }
+
+  .explore {
+    margin-right: 10px;
+  }
+
+  .destination {
+
+  }
+
   .img-destination img{
     width: 50%;
     height: 50%;
     margin-bottom:1px;
   }
+
   .flex-list {
     flex-wrap: wrap;
   }
   .flex-list li {
     width: 50%;
   }
+
+
 }
 
 /* Untuk Smartphone */
@@ -52,9 +68,7 @@
   .flex-list li {
     margin:0 auto;
   }
- /* .signup {
-    margin-bottom: 10px;
-  }*/
+ 
   
   .top-wrapper {
     text-align: left;
@@ -81,8 +95,8 @@
   }
 
   .img-destination img{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     margin-bottom:1px;
   }
 
@@ -93,7 +107,11 @@
   .btn-wrapper{
 
   }
-.listt{
+  .listt{
 
-}
+  }
+  .destination {
+    margin-left:10px;
+  }
+
 }
