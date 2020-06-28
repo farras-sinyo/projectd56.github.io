@@ -42,7 +42,9 @@
     width: 50%;
   }
 
-
+  .footer-logo p {
+    padding-top: 10px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -53,6 +55,14 @@
   
   footer {
     text-align: center;
+  }
+  
+  .footer-logo {
+    margin-left: 18px;
+  }
+  
+  .footer-logo p {
+    padding-top: 10px;
   }
   
   .btn {
@@ -77,11 +87,20 @@
   /* Tambahkan CSS untuk header-right */
   .list-header {
     display:none;
+ 
   }
+  
+header {
+  position: relative;
+}
   
   /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     display:block;
+    top: 16px;
+    position: absolute;
+    margin-left: 155px;
+    color: white;
   }
   
   .top-wrapper h1 {
@@ -107,11 +126,11 @@
   .btn-wrapper{
 
   }
-  .listt{
+  .list{
 
   }
   .destination {
-    margin-left:10px;
+    margin-right: 10px;
   }
 
 }
